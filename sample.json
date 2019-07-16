@@ -1,0 +1,888 @@
+{
+	"_id": {
+		"$oid": "56ab9cc266562fc13cc77bcc"
+	},
+	"lrs": {
+		"_id": "56ab9c3e66562fbe3cc775ac"
+	},
+	"client_id": "56ab9c3e66562fbe3cc775ad",
+	"statement": {
+		"version": "1.0.0",
+		"actor": {
+			"objectType": "Agent",
+			"name": "591aee78fed8cc7b7603b8c6",
+			"account": {
+				"name": "591aee78fed8cc7b7603b8c6",
+				"homePage": "http://org1.com"
+			}
+		},
+		"verb": {
+			"id": "http://activitystrea.ms/schema/1.0/access",
+			"display": {
+				"en-US": "accessed",
+				"en-GB": "accessed"
+			}
+		},
+		"context": {
+			"contextActivities": {
+				"grouping": [
+					{
+						"objectType": "Activity",
+						"id": "https://www.tes.com/mycourses/courses/Course_CG",
+						"definition": {
+							"type": "http://adlnet.gov/expapi/activities/course",
+							"name": {
+								"en-GB": "Course_CG"
+							},
+							"description": {
+								"en-GB": "\u003cp\u003e\u003cspan class=\"s1\"\u003eTeacher, trainer and author MG357 takes you on a growth mindset journey, unlocking one of the most powerful and transformational teaching approaches so you can re-shape the way your students think and feel about learning.\u003c/span\u003e\u003c/p\u003e"
+							}
+						}
+					},
+					{
+						"objectType": "Activity",
+						"id": "https://www.tes.com/mycourses",
+						"definition": {
+							"type": "http://curatr3.com/define/type/organisation",
+							"name": {
+								"en-GB": "TES Institute"
+							}
+						}
+					}
+				]
+			},
+			"platform": "Curatr"
+		},
+		"timestamp": "2016-01-29T17:09:21+00:00",
+		"object": {
+			"objectType": "Activity",
+			"id": "https://www.tes.com/mycourses/courses/Course_CG/learn",
+			"definition": {
+				"type": "http://activitystrea.ms/schema/1.0/page",
+				"name": {
+					"en-US": "Course_CG - Learn",
+					"en-GB": "Course_CG - Learn"
+				}
+			}
+		},
+		"authority": {
+			"objectType": "Agent",
+			"name": "Curatr",
+			"mbox": "mailto:hello@learninglocker.net"
+		},
+		"stored": "2016-01-29T17:09:22.661300+00:00",
+		"id": "bcd1a8be-a4d2-432a-9696-4d71c55b011b"
+	},
+	"active": true,
+	"voided": false,
+	"timestamp": {
+		"$date": "2016-01-29T17:09:21.000Z"
+	},
+	"updated_at": {
+		"$date": "2016-01-29T17:09:22.674Z"
+	},
+	"lrs_id": {
+		"$oid": "56ab9c3e66562fbe3cc775ac"
+	},
+	"stored": {
+		"$date": "2016-01-29T17:09:22.661Z"
+	},
+	"client": {
+		"$oid": "56ab9c3e66562fbe3cc775ad"
+	},
+	"organisation": {
+		"$oid": "584fe67b7d8585bd6183a14f"
+	},
+	"completedQueues": [
+		"STATEMENT_PERSON_QUEUE",
+		"STATEMENT_QUERYBUILDERCACHE_QUEUE"
+	],
+	"personaIdentifier": {
+		"$oid": "591aee78fed8cc7b7603b8c6"
+	},
+	"person": {
+		"display": "591aee798ba073517adc3c00",
+		"_id": {
+			"$oid": "591aee798ba073517adc3c00"
+		}
+	},
+	"activities": [
+		"https://www.tes.com/mycourses/courses/Course_CG/learn"
+	],
+	"agents": [],
+	"registrations": [],
+	"relatedActivities": [
+		"https://www.tes.com/mycourses/courses/Course_CG/learn",
+		"https://www.tes.com/mycourses/courses/Course_CG",
+		"https://www.tes.com/mycourses"
+	],
+	"relatedAgents": [],
+	"verbs": [
+		"http://activitystrea.ms/schema/1.0/access"
+	],
+	"hash": "7bd9f26f7ebd1bd76a204b025cf1e3ad45416cbd",
+	"m": true,
+	"modified": true,
+	"modDate": {
+		"$date": "2019-05-14T13:33:39.600Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "56ab9ce466562f7a0ac77cfa"
+	},
+	"lrs": {
+		"_id": "56ab9c3e66562fbe3cc775ac"
+	},
+	"client_id": "56ab9c3e66562fbe3cc775ad",
+	"statement": {
+		"version": "1.0.0",
+		"actor": {
+			"objectType": "Agent",
+			"name": "591af17dfed8cc7b7603c9e7",
+			"account": {
+				"name": "591af17dfed8cc7b7603c9e7",
+				"homePage": "http://org1.com"
+			}
+		},
+		"verb": {
+			"id": "http://activitystrea.ms/schema/1.0/join",
+			"display": {
+				"en-US": "joined",
+				"en-GB": "joined"
+			}
+		},
+		"context": {
+			"contextActivities": {
+				"grouping": [
+					{
+						"objectType": "Activity",
+						"id": "https://www.tes.com/mycourses",
+						"definition": {
+							"type": "http://curatr3.com/define/type/organisation",
+							"name": {
+								"en-GB": "TES Institute"
+							}
+						}
+					}
+				]
+			},
+			"platform": "Curatr"
+		},
+		"timestamp": "2016-01-29T17:09:55+00:00",
+		"object": {
+			"objectType": "Activity",
+			"id": "https://www.tes.com/mycourses/courses/Course_CG",
+			"definition": {
+				"type": "http://adlnet.gov/expapi/activities/course",
+				"name": {
+					"en-GB": "Course_CG"
+				},
+				"description": {
+					"en-GB": "\u003cp\u003e\u003cspan class=\"s1\"\u003eTeacher, trainer and author MG357 takes you on a growth mindset journey, unlocking one of the most powerful and transformational teaching approaches so you can re-shape the way your students think and feel about learning.\u003c/span\u003e\u003c/p\u003e"
+				}
+			}
+		},
+		"authority": {
+			"objectType": "Agent",
+			"name": "Curatr",
+			"mbox": "mailto:hello@learninglocker.net"
+		},
+		"stored": "2016-01-29T17:09:56.259300+00:00",
+		"id": "90e5063a-bb92-4036-a811-c4f268d77c4c"
+	},
+	"active": true,
+	"voided": false,
+	"timestamp": {
+		"$date": "2016-01-29T17:09:55.000Z"
+	},
+	"updated_at": {
+		"$date": "2016-01-29T17:09:56.588Z"
+	},
+	"lrs_id": {
+		"$oid": "56ab9c3e66562fbe3cc775ac"
+	},
+	"stored": {
+		"$date": "2016-01-29T17:09:56.259Z"
+	},
+	"client": {
+		"$oid": "56ab9c3e66562fbe3cc775ad"
+	},
+	"organisation": {
+		"$oid": "584fe67b7d8585bd6183a14f"
+	},
+	"completedQueues": [
+		"STATEMENT_PERSON_QUEUE",
+		"STATEMENT_QUERYBUILDERCACHE_QUEUE"
+	],
+	"personaIdentifier": {
+		"$oid": "591af17dfed8cc7b7603c9e7"
+	},
+	"person": {
+		"_id": {
+			"$oid": "591af17e8ba073517aefa60a"
+		},
+		"display": "591af17e8ba073517aefa60a"
+	},
+	"activities": [
+		"https://www.tes.com/mycourses/courses/Course_CG"
+	],
+	"agents": [],
+	"registrations": [],
+	"relatedActivities": [
+		"https://www.tes.com/mycourses/courses/Course_CG",
+		"https://www.tes.com/mycourses"
+	],
+	"relatedAgents": [],
+	"verbs": [
+		"http://activitystrea.ms/schema/1.0/join"
+	],
+	"hash": "b80c68f62772fa0517e1710ca87bbb03d46f4577",
+	"m": true,
+	"modified": true,
+	"modDate": {
+		"$date": "2019-05-14T13:33:01.046Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "56ab9cea66562f924cc77a35"
+	},
+	"lrs": {
+		"_id": "56ab9c3e66562fbe3cc775ac"
+	},
+	"client_id": "56ab9c3e66562fbe3cc775ad",
+	"statement": {
+		"version": "1.0.0",
+		"actor": {
+			"objectType": "Agent",
+			"name": "591af17dfed8cc7b7603c9e7",
+			"account": {
+				"name": "591af17dfed8cc7b7603c9e7",
+				"homePage": "http://org1.com"
+			}
+		},
+		"verb": {
+			"id": "http://activitystrea.ms/schema/1.0/access",
+			"display": {
+				"en-US": "accessed",
+				"en-GB": "accessed"
+			}
+		},
+		"context": {
+			"contextActivities": {
+				"grouping": [
+					{
+						"objectType": "Activity",
+						"id": "https://www.tes.com/mycourses/courses/Course_CG",
+						"definition": {
+							"type": "http://adlnet.gov/expapi/activities/course",
+							"name": {
+								"en-GB": "Course_CG"
+							},
+							"description": {
+								"en-GB": "\u003cp\u003e\u003cspan class=\"s1\"\u003eTeacher, trainer and author MG357 takes you on a growth mindset journey, unlocking one of the most powerful and transformational teaching approaches so you can re-shape the way your students think and feel about learning.\u003c/span\u003e\u003c/p\u003e"
+							}
+						}
+					},
+					{
+						"objectType": "Activity",
+						"id": "https://www.tes.com/mycourses",
+						"definition": {
+							"type": "http://curatr3.com/define/type/organisation",
+							"name": {
+								"en-GB": "TES Institute"
+							}
+						}
+					}
+				]
+			},
+			"platform": "Curatr"
+		},
+		"timestamp": "2016-01-29T17:10:00+00:00",
+		"object": {
+			"objectType": "Activity",
+			"id": "https://www.tes.com/mycourses/courses/Course_CG/learn",
+			"definition": {
+				"type": "http://activitystrea.ms/schema/1.0/page",
+				"name": {
+					"en-US": "Course_CG - Learn",
+					"en-GB": "Course_CG - Learn"
+				}
+			}
+		},
+		"authority": {
+			"objectType": "Agent",
+			"name": "Curatr",
+			"mbox": "mailto:hello@learninglocker.net"
+		},
+		"stored": "2016-01-29T17:10:02.985700+00:00",
+		"id": "6527f097-2e5b-4bbf-8bbd-7a1550332dc3"
+	},
+	"active": true,
+	"voided": false,
+	"timestamp": {
+		"$date": "2016-01-29T17:10:00.000Z"
+	},
+	"updated_at": {
+		"$date": "2016-01-29T17:10:03.051Z"
+	},
+	"lrs_id": {
+		"$oid": "56ab9c3e66562fbe3cc775ac"
+	},
+	"stored": {
+		"$date": "2016-01-29T17:10:02.985Z"
+	},
+	"client": {
+		"$oid": "56ab9c3e66562fbe3cc775ad"
+	},
+	"organisation": {
+		"$oid": "584fe67b7d8585bd6183a14f"
+	},
+	"completedQueues": [
+		"STATEMENT_PERSON_QUEUE",
+		"STATEMENT_QUERYBUILDERCACHE_QUEUE"
+	],
+	"personaIdentifier": {
+		"$oid": "591af17dfed8cc7b7603c9e7"
+	},
+	"person": {
+		"_id": {
+			"$oid": "591af17e8ba073517aefa60a"
+		},
+		"display": "591af17e8ba073517aefa60a"
+	},
+	"activities": [
+		"https://www.tes.com/mycourses/courses/Course_CG/learn"
+	],
+	"agents": [],
+	"registrations": [],
+	"relatedActivities": [
+		"https://www.tes.com/mycourses/courses/Course_CG/learn",
+		"https://www.tes.com/mycourses/courses/Course_CG",
+		"https://www.tes.com/mycourses"
+	],
+	"relatedAgents": [],
+	"verbs": [
+		"http://activitystrea.ms/schema/1.0/access"
+	],
+	"hash": "b038e4dc41fd48d8d24906fa5794c43337c98830",
+	"m": true,
+	"modified": true,
+	"modDate": {
+		"$date": "2019-05-14T13:33:39.600Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "56ab9d1866562f0678c776ce"
+	},
+	"lrs": {
+		"_id": "56ab9c3e66562fbe3cc775ac"
+	},
+	"client_id": "56ab9c3e66562fbe3cc775ad",
+	"statement": {
+		"version": "1.0.0",
+		"actor": {
+			"objectType": "Agent",
+			"name": "591af158fed8cc7b7603c979",
+			"account": {
+				"name": "591af158fed8cc7b7603c979",
+				"homePage": "http://org1.com"
+			}
+		},
+		"verb": {
+			"id": "http://adlnet.gov/expapi/verbs/completed",
+			"display": {
+				"en-US": "completed",
+				"en-GB": "completed"
+			}
+		},
+		"result": {
+			"duration": "PT30S"
+		},
+		"context": {
+			"contextActivities": {
+				"grouping": [
+					{
+						"objectType": "Activity",
+						"id": "https://www.tes.com/mycourses/courses/Course_CG",
+						"definition": {
+							"type": "http://adlnet.gov/expapi/activities/course",
+							"name": {
+								"en-GB": "Course_CG"
+							},
+							"description": {
+								"en-GB": "\u003cp\u003e\u003cspan class=\"s1\"\u003eTeacher, trainer and author MG357 takes you on a growth mindset journey, unlocking one of the most powerful and transformational teaching approaches so you can re-shape the way your students think and feel about learning.\u003c/span\u003e\u003c/p\u003e"
+							}
+						}
+					},
+					{
+						"objectType": "Activity",
+						"id": "https://www.tes.com/mycourses",
+						"definition": {
+							"type": "http://curatr3.com/define/type/organisation",
+							"name": {
+								"en-GB": "TES Institute"
+							}
+						}
+					}
+				]
+			},
+			"platform": "Curatr"
+		},
+		"timestamp": "2016-01-29T17:10:47+00:00",
+		"object": {
+			"objectType": "Activity",
+			"id": "https://www.tes.com/mycourses/courses/Course_CG/home#object/982",
+			"definition": {
+				"type": "http://activitystrea.ms/schema/1.0/article"
+			}
+		},
+		"authority": {
+			"objectType": "Agent",
+			"name": "Curatr",
+			"mbox": "mailto:hello@learninglocker.net"
+		},
+		"stored": "2016-01-29T17:10:48.473100+00:00",
+		"id": "bfceb5d7-9553-4be7-8885-a370284f71d5"
+	},
+	"active": true,
+	"voided": false,
+	"timestamp": {
+		"$date": "2016-01-29T17:10:47.000Z"
+	},
+	"updated_at": {
+		"$date": "2016-01-29T17:10:48.502Z"
+	},
+	"lrs_id": {
+		"$oid": "56ab9c3e66562fbe3cc775ac"
+	},
+	"stored": {
+		"$date": "2016-01-29T17:10:48.473Z"
+	},
+	"client": {
+		"$oid": "56ab9c3e66562fbe3cc775ad"
+	},
+	"organisation": {
+		"$oid": "584fe67b7d8585bd6183a14f"
+	},
+	"completedQueues": [
+		"STATEMENT_PERSON_QUEUE",
+		"STATEMENT_QUERYBUILDERCACHE_QUEUE"
+	],
+	"personaIdentifier": {
+		"$oid": "591af158fed8cc7b7603c979"
+	},
+	"person": {
+		"display": "591af1598ba073517aeec841",
+		"_id": {
+			"$oid": "591af1598ba073517aeec841"
+		}
+	},
+	"activities": [
+		"https://www.tes.com/mycourses/courses/Course_CG/home#object/982"
+	],
+	"agents": [],
+	"registrations": [],
+	"relatedActivities": [
+		"https://www.tes.com/mycourses/courses/Course_CG/home#object/982",
+		"https://www.tes.com/mycourses/courses/Course_CG",
+		"https://www.tes.com/mycourses"
+	],
+	"relatedAgents": [],
+	"verbs": [
+		"http://adlnet.gov/expapi/verbs/completed"
+	],
+	"hash": "6a080c7f6d403c4f9a01382239d61de310da2059",
+	"m": true,
+	"modified": true,
+	"modDate": {
+		"$date": "2019-05-14T13:33:32.598Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "56ab9d5466562fa672c77c41"
+	},
+	"lrs": {
+		"_id": "56ab9c3e66562fbe3cc775ac"
+	},
+	"client_id": "56ab9c3e66562fbe3cc775ad",
+	"statement": {
+		"version": "1.0.0",
+		"actor": {
+			"objectType": "Agent",
+			"name": "591af17dfed8cc7b7603c9e7",
+			"account": {
+				"name": "591af17dfed8cc7b7603c9e7",
+				"homePage": "http://org1.com"
+			}
+		},
+		"verb": {
+			"id": "http://adlnet.gov/expapi/verbs/completed",
+			"display": {
+				"en-US": "completed",
+				"en-GB": "completed"
+			}
+		},
+		"result": {
+			"duration": "PT30S"
+		},
+		"context": {
+			"contextActivities": {
+				"grouping": [
+					{
+						"objectType": "Activity",
+						"id": "https://www.tes.com/mycourses/courses/Course_CG",
+						"definition": {
+							"type": "http://adlnet.gov/expapi/activities/course",
+							"name": {
+								"en-GB": "Course_CG"
+							},
+							"description": {
+								"en-GB": "\u003cp\u003e\u003cspan class=\"s1\"\u003eTeacher, trainer and author MG357 takes you on a growth mindset journey, unlocking one of the most powerful and transformational teaching approaches so you can re-shape the way your students think and feel about learning.\u003c/span\u003e\u003c/p\u003e"
+							}
+						}
+					},
+					{
+						"objectType": "Activity",
+						"id": "https://www.tes.com/mycourses",
+						"definition": {
+							"type": "http://curatr3.com/define/type/organisation",
+							"name": {
+								"en-GB": "TES Institute"
+							}
+						}
+					}
+				]
+			},
+			"platform": "Curatr"
+		},
+		"timestamp": "2016-01-29T17:11:47+00:00",
+		"object": {
+			"objectType": "Activity",
+			"id": "https://www.tes.com/mycourses/courses/Course_CG/home#object/927",
+			"definition": {
+				"type": "http://activitystrea.ms/schema/1.0/article"
+			}
+		},
+		"authority": {
+			"objectType": "Agent",
+			"name": "Curatr",
+			"mbox": "mailto:hello@learninglocker.net"
+		},
+		"stored": "2016-01-29T17:11:48.992000+00:00",
+		"id": "b8756d84-c88f-47a6-a20e-ca040a251d0c"
+	},
+	"active": true,
+	"voided": false,
+	"timestamp": {
+		"$date": "2016-01-29T17:11:47.000Z"
+	},
+	"updated_at": {
+		"$date": "2016-01-29T17:11:49.005Z"
+	},
+	"lrs_id": {
+		"$oid": "56ab9c3e66562fbe3cc775ac"
+	},
+	"stored": {
+		"$date": "2016-01-29T17:11:48.992Z"
+	},
+	"client": {
+		"$oid": "56ab9c3e66562fbe3cc775ad"
+	},
+	"organisation": {
+		"$oid": "584fe67b7d8585bd6183a14f"
+	},
+	"completedQueues": [
+		"STATEMENT_PERSON_QUEUE",
+		"STATEMENT_QUERYBUILDERCACHE_QUEUE"
+	],
+	"personaIdentifier": {
+		"$oid": "591af17dfed8cc7b7603c9e7"
+	},
+	"person": {
+		"_id": {
+			"$oid": "591af17e8ba073517aefa60a"
+		},
+		"display": "591af17e8ba073517aefa60a"
+	},
+	"activities": [
+		"https://www.tes.com/mycourses/courses/Course_CG/home#object/927"
+	],
+	"agents": [],
+	"registrations": [],
+	"relatedActivities": [
+		"https://www.tes.com/mycourses/courses/Course_CG/home#object/927",
+		"https://www.tes.com/mycourses/courses/Course_CG",
+		"https://www.tes.com/mycourses"
+	],
+	"relatedAgents": [],
+	"verbs": [
+		"http://adlnet.gov/expapi/verbs/completed"
+	],
+	"hash": "bf5f55241d2d148a901b6a9175fe13846046d44f",
+	"m": true,
+	"modified": true,
+	"modDate": {
+		"$date": "2019-05-14T13:33:11.074Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "56ab9e1966562f6952c77aed"
+	},
+	"lrs": {
+		"_id": "56ab9c3e66562fbe3cc775ac"
+	},
+	"client_id": "56ab9c3e66562fbe3cc775ad",
+	"statement": {
+		"version": "1.0.0",
+		"actor": {
+			"objectType": "Agent",
+			"name": "591af00afed8cc7b7603c3f5",
+			"account": {
+				"name": "591af00afed8cc7b7603c3f5",
+				"homePage": "http://org1.com"
+			}
+		},
+		"verb": {
+			"id": "http://activitystrea.ms/schema/1.0/access",
+			"display": {
+				"en-US": "accessed",
+				"en-GB": "accessed"
+			}
+		},
+		"context": {
+			"contextActivities": {
+				"grouping": [
+					{
+						"objectType": "Activity",
+						"id": "https://www.tes.com/mycourses/courses/Course_CG",
+						"definition": {
+							"type": "http://adlnet.gov/expapi/activities/course",
+							"name": {
+								"en-GB": "Course_CG"
+							},
+							"description": {
+								"en-GB": "\u003cp\u003e\u003cspan class=\"s1\"\u003eTeacher, trainer and author MG357 takes you on a growth mindset journey, unlocking one of the most powerful and transformational teaching approaches so you can re-shape the way your students think and feel about learning.\u003c/span\u003e\u003c/p\u003e"
+							}
+						}
+					},
+					{
+						"objectType": "Activity",
+						"id": "https://www.tes.com/mycourses",
+						"definition": {
+							"type": "http://curatr3.com/define/type/organisation",
+							"name": {
+								"en-GB": "TES Institute"
+							}
+						}
+					}
+				]
+			},
+			"platform": "Curatr"
+		},
+		"timestamp": "2016-01-29T17:15:02+00:00",
+		"object": {
+			"objectType": "Activity",
+			"id": "https://www.tes.com/mycourses/courses/Course_CG/learn",
+			"definition": {
+				"type": "http://activitystrea.ms/schema/1.0/page",
+				"name": {
+					"en-US": "Course_CG - Learn",
+					"en-GB": "Course_CG - Learn"
+				}
+			}
+		},
+		"authority": {
+			"objectType": "Agent",
+			"name": "Curatr",
+			"mbox": "mailto:hello@learninglocker.net"
+		},
+		"stored": "2016-01-29T17:15:05.149000+00:00",
+		"id": "ad4794dd-b8f5-448a-8ad2-05843e46b42c"
+	},
+	"active": true,
+	"voided": false,
+	"timestamp": {
+		"$date": "2016-01-29T17:15:02.000Z"
+	},
+	"updated_at": {
+		"$date": "2016-01-29T17:15:05.162Z"
+	},
+	"lrs_id": {
+		"$oid": "56ab9c3e66562fbe3cc775ac"
+	},
+	"stored": {
+		"$date": "2016-01-29T17:15:05.149Z"
+	},
+	"client": {
+		"$oid": "56ab9c3e66562fbe3cc775ad"
+	},
+	"organisation": {
+		"$oid": "584fe67b7d8585bd6183a14f"
+	},
+	"completedQueues": [
+		"STATEMENT_PERSON_QUEUE",
+		"STATEMENT_QUERYBUILDERCACHE_QUEUE"
+	],
+	"personaIdentifier": {
+		"$oid": "591af00afed8cc7b7603c3f5"
+	},
+	"person": {
+		"display": "591af00b8ba073517ae5e16e",
+		"_id": {
+			"$oid": "591af00b8ba073517ae5e16e"
+		}
+	},
+	"activities": [
+		"https://www.tes.com/mycourses/courses/Course_CG/learn"
+	],
+	"agents": [],
+	"registrations": [],
+	"relatedActivities": [
+		"https://www.tes.com/mycourses/courses/Course_CG/learn",
+		"https://www.tes.com/mycourses/courses/Course_CG",
+		"https://www.tes.com/mycourses"
+	],
+	"relatedAgents": [],
+	"verbs": [
+		"http://activitystrea.ms/schema/1.0/access"
+	],
+	"hash": "a6ec651bc5b8ce743c20431581d03a3179fb5a61",
+	"m": true,
+	"modified": true,
+	"modDate": {
+		"$date": "2019-05-14T13:33:39.600Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "56ab9e5866562fa672c77c4b"
+	},
+	"lrs": {
+		"_id": "56ab9c3e66562fbe3cc775ac"
+	},
+	"client_id": "56ab9c3e66562fbe3cc775ad",
+	"statement": {
+		"version": "1.0.0",
+		"actor": {
+			"objectType": "Agent",
+			"name": "591af158fed8cc7b7603c979",
+			"account": {
+				"name": "591af158fed8cc7b7603c979",
+				"homePage": "http://org1.com"
+			}
+		},
+		"verb": {
+			"id": "http://activitystrea.ms/schema/1.0/access",
+			"display": {
+				"en-US": "accessed",
+				"en-GB": "accessed"
+			}
+		},
+		"context": {
+			"contextActivities": {
+				"grouping": [
+					{
+						"objectType": "Activity",
+						"id": "https://www.tes.com/mycourses/courses/Course_CG",
+						"definition": {
+							"type": "http://adlnet.gov/expapi/activities/course",
+							"name": {
+								"en-GB": "Course_CG"
+							},
+							"description": {
+								"en-GB": "\u003cp\u003e\u003cspan class=\"s1\"\u003eTeacher, trainer and author MG357 takes you on a growth mindset journey, unlocking one of the most powerful and transformational teaching approaches so you can re-shape the way your students think and feel about learning.\u003c/span\u003e\u003c/p\u003e"
+							}
+						}
+					},
+					{
+						"objectType": "Activity",
+						"id": "https://www.tes.com/mycourses",
+						"definition": {
+							"type": "http://curatr3.com/define/type/organisation",
+							"name": {
+								"en-GB": "TES Institute"
+							}
+						}
+					}
+				]
+			},
+			"platform": "Curatr"
+		},
+		"timestamp": "2016-01-29T17:16:06+00:00",
+		"object": {
+			"objectType": "Activity",
+			"id": "https://www.tes.com/mycourses/courses/Course_CG/gates/92",
+			"definition": {
+				"type": "http://activitystrea.ms/schema/1.0/page",
+				"name": {
+					"en-US": "Metacognition Assignment",
+					"en-GB": "Metacognition Assignment"
+				}
+			}
+		},
+		"authority": {
+			"objectType": "Agent",
+			"name": "Curatr",
+			"mbox": "mailto:hello@learninglocker.net"
+		},
+		"stored": "2016-01-29T17:16:08.664200+00:00",
+		"id": "5de4561b-e94c-4b3c-aa97-9d510505d6d2"
+	},
+	"active": true,
+	"voided": false,
+	"timestamp": {
+		"$date": "2016-01-29T17:16:06.000Z"
+	},
+	"updated_at": {
+		"$date": "2016-01-29T17:16:08.676Z"
+	},
+	"lrs_id": {
+		"$oid": "56ab9c3e66562fbe3cc775ac"
+	},
+	"stored": {
+		"$date": "2016-01-29T17:16:08.664Z"
+	},
+	"client": {
+		"$oid": "56ab9c3e66562fbe3cc775ad"
+	},
+	"organisation": {
+		"$oid": "584fe67b7d8585bd6183a14f"
+	},
+	"completedQueues": [
+		"STATEMENT_PERSON_QUEUE",
+		"STATEMENT_QUERYBUILDERCACHE_QUEUE"
+	],
+	"personaIdentifier": {
+		"$oid": "591af158fed8cc7b7603c979"
+	},
+	"person": {
+		"display": "591af1598ba073517aeec841",
+		"_id": {
+			"$oid": "591af1598ba073517aeec841"
+		}
+	},
+	"activities": [
+		"https://www.tes.com/mycourses/courses/Course_CG/gates/92"
+	],
+	"agents": [],
+	"registrations": [],
+	"relatedActivities": [
+		"https://www.tes.com/mycourses/courses/Course_CG/gates/92",
+		"https://www.tes.com/mycourses/courses/Course_CG",
+		"https://www.tes.com/mycourses"
+	],
+	"relatedAgents": [],
+	"verbs": [
+		"http://activitystrea.ms/schema/1.0/access"
+	],
+	"hash": "1dd9b33d122d025017a231d33074896219d11e0a",
+	"m": true,
+	"modified": true,
+	"modDate": {
+		"$date": "2019-05-14T13:33:05.084Z"
+	}
